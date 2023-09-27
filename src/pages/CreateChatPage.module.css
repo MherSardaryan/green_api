@@ -1,0 +1,66 @@
+.body{
+    height: 100vh;
+    background-color: #d0d4d6
+
+}
+.back_side{
+    height: 15vh;
+    background-color: #00a884;
+}
+.user_page{
+    width: 98%;
+    height: 96vh;
+    position: absolute;
+    background-color: #f0f2f5;
+    top: 2vh;
+    left: 1%;
+    display: flex;
+}
+.tools{
+    width: 320px;
+    border-bottom: 1px solid #d0d4d6;
+    border-right:5px solid  #d0d4d6;
+}
+.ul{
+    text-align: center;
+    width: 320px;
+    list-style: none;
+    height: 94%;
+    overflow: scroll;
+    border-right: 1px solid grey;
+}
+.ul> div >li{
+    width: 100%;
+    padding: 25px;
+    border-bottom: 1px solid rgb(183, 182, 182) ;
+
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #00a884;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #97d098; 
+  }
+  .chat{
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  .contact{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+  }
+
+  .def{
+    height: 96vh;
+    
+    background-image: url(https://static.vecteezy.com/system/resources/previews/010/160/194/original/speech-bubble-chat-icon-sign-design-free-png.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
